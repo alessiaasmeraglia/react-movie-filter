@@ -68,7 +68,7 @@ function App() {
       <ul>
         {filteredMovies.map((movie) => (
           <li key={movie.id}>
-            {movie.title} — <strong>{movie.genre}</strong>
+            {movie.title} - <strong>{movie.genre}</strong>
           </li>
         ))}
       </ul>
